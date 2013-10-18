@@ -21,6 +21,7 @@
 		32346825181112DB00E8D4F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32346807181112DB00E8D4F9 /* UIKit.framework */; };
 		3234682D181112DB00E8D4F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3234682B181112DB00E8D4F9 /* InfoPlist.strings */; };
 		3234682F181112DB00E8D4F9 /* GNRoundImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234682E181112DB00E8D4F9 /* GNRoundImageViewTests.m */; };
+		32346839181114DF00E8D4F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32346838181114DF00E8D4F9 /* QuartzCore.framework */; };
 		F663ED9B2B6B7D69A3F30681 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F663EC730AC24E83C38C97D4 /* image.jpg */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		3234682A181112DB00E8D4F9 /* GNRoundImageViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GNRoundImageViewTests-Info.plist"; sourceTree = "<group>"; };
 		3234682C181112DB00E8D4F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3234682E181112DB00E8D4F9 /* GNRoundImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNRoundImageViewTests.m; sourceTree = "<group>"; };
+		32346838181114DF00E8D4F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F663EC730AC24E83C38C97D4 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32346839181114DF00E8D4F9 /* QuartzCore.framework in Frameworks */,
 				32346806181112DB00E8D4F9 /* CoreGraphics.framework in Frameworks */,
 				32346808181112DB00E8D4F9 /* UIKit.framework in Frameworks */,
 				32346804181112DB00E8D4F9 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		32346802181112DB00E8D4F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32346838181114DF00E8D4F9 /* QuartzCore.framework */,
 				32346803181112DB00E8D4F9 /* Foundation.framework */,
 				32346805181112DB00E8D4F9 /* CoreGraphics.framework */,
 				32346807181112DB00E8D4F9 /* UIKit.framework */,
@@ -464,6 +468,7 @@
 				32346834181112DB00E8D4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32346835181112DB00E8D4F9 /* Build configuration list for PBXNativeTarget "GNRoundImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +477,7 @@
 				32346837181112DB00E8D4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
