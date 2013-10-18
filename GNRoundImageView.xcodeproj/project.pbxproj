@@ -22,6 +22,7 @@
 		3234682D181112DB00E8D4F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3234682B181112DB00E8D4F9 /* InfoPlist.strings */; };
 		3234682F181112DB00E8D4F9 /* GNRoundImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234682E181112DB00E8D4F9 /* GNRoundImageViewTests.m */; };
 		32346839181114DF00E8D4F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32346838181114DF00E8D4F9 /* QuartzCore.framework */; };
+		F663EA2EC7CA48CB55067209 /* GNRoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F663E2F605E45A6BCEF1CA83 /* GNRoundImageView.m */; };
 		F663ED9B2B6B7D69A3F30681 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F663EC730AC24E83C38C97D4 /* image.jpg */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		3234682C181112DB00E8D4F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3234682E181112DB00E8D4F9 /* GNRoundImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNRoundImageViewTests.m; sourceTree = "<group>"; };
 		32346838181114DF00E8D4F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F663E2F605E45A6BCEF1CA83 /* GNRoundImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNRoundImageView.m; sourceTree = "<group>"; };
+		F663E47D18A4474BCAF3C7CF /* GNRoundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNRoundImageView.h; sourceTree = "<group>"; };
 		F663EC730AC24E83C38C97D4 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +129,8 @@
 				3234681B181112DB00E8D4F9 /* Images.xcassets */,
 				3234680A181112DB00E8D4F9 /* Supporting Files */,
 				F663EC730AC24E83C38C97D4 /* image.jpg */,
+				F663E2F605E45A6BCEF1CA83 /* GNRoundImageView.m */,
+				F663E47D18A4474BCAF3C7CF /* GNRoundImageView.h */,
 			);
 			path = GNRoundImageView;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				32346810181112DB00E8D4F9 /* main.m in Sources */,
 				3234681A181112DB00E8D4F9 /* GNViewController.m in Sources */,
 				32346814181112DB00E8D4F9 /* GNAppDelegate.m in Sources */,
+				F663EA2EC7CA48CB55067209 /* GNRoundImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
